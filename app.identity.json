@@ -1,0 +1,8 @@
+{
+  "name": "RNTemplate",
+  "slug": "rntemplate",
+  "scheme": "rntemplate",
+  "androidPackage": "com.federico.rntemplate",
+  "iosBundleIdentifier": "com.federico.rntemplate",
+  "easProjectId": ""
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@import "heroui-native/styles";
+
+/* End-user path: heroui-native lives in the project's node_modules, one
+   level up from this src/global.css file. */
+@source '../node_modules/heroui-native/lib';
+
+/* Inter, loaded in src/app/_layout.tsx. Define all four weights together, and keep the names
+   in sync with the useFonts keys. */
+@theme {
+  --font-normal: "Inter_400Regular";
+  --font-medium: "Inter_500Medium";
+  --font-semibold: "Inter_600SemiBold";
+  --font-bold: "Inter_700Bold";
+}
